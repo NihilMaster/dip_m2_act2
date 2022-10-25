@@ -1,14 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package z.app.dip_m2_act2;
 
 import java.util.Scanner;
 
 /**
  *
- * @author super
+ * @author M
  */
 public class A {
     private static final Scanner s = new Scanner(System.in);

@@ -18,18 +18,19 @@ public class Dip_m2_act2 {
             switch (opt) {
                 case "a", "A" -> { 
                     System.out.println("\nApuntadores a funciones");
-                    A a = new A(); a.main(null);
+                    A.main(null);
                 }
                 case "b", "B" -> { 
                     System.out.println("Funciones Lambda");
-                    B b = new B(); b.main(null);
+                    B.main(null);
                 }
+
                 case "c", "C" -> {
                     System.out.println("Map y Reduce");
-                    C c = new C(); c.main(null);
+                    C.main(null);
                 }
                 default -> {
-                    System.out.println("Opción no válida");
+                    System.out.println("Adiós");
                     v=false;
                 }
             }
